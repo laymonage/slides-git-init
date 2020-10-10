@@ -1,6 +1,6 @@
 # `git init`
 
-Presented at DSC Universitas Indonesia 2020 Community Launching
+Presented at DSC Universitas Indonesia 2020 Community Launching\
 Made with [reveal.js][reveal.js].
 
 View on [slides.laymonage.com][slides-git-init] or serve locally
