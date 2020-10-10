@@ -1,4 +1,4 @@
-# `git-init`
+# `git init`
 
 Presented at DSC Universitas Indonesia 2020 Community Launching
 Made with [reveal.js][reveal.js].
