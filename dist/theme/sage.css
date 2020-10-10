@@ -308,3 +308,9 @@ section ul, section ol {
 
 table.center th, table.center td {
   text-align: center; }
+
+.font-smaller {
+  font-size: smaller; }
+
+.text-left {
+  text-align: left; }
