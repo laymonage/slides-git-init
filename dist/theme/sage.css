@@ -314,3 +314,6 @@ table.center th, table.center td {
 
 .text-left {
   text-align: left; }
+
+.rounded {
+  border-radius: 2rem; }

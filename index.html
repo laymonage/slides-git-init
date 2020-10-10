@@ -113,11 +113,11 @@
             </div>
           </section>
           <section>
-            <img width="80%" style="background: #ffffff; border-radius: 2rem;" src="assets/centralized.png" alt="Centralized VCS">
+            <img class="rounded" width="80%" style="background: #ffffff;" src="assets/centralized.png" alt="Centralized VCS">
             <p style="font-size: 1rem;"><a href="https://medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0">medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0</a></p>
           </section>
           <section>
-            <img width="80%" style="background: #ffffff; border-radius: 2rem;" src="assets/distributed.png" alt="Distributed VCS">
+            <img class="rounded" width="80%" style="background: #ffffff; border-radius: 2rem;" src="assets/distributed.png" alt="Distributed VCS">
             <p style="font-size: 1rem;"><a href="https://medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0">medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0</a></p>
           </section>
         </section>
@@ -194,6 +194,53 @@
               <li>Start <strong>tracking</strong> those files</li>
             </ul>
             <img src="assets/git-add.png" alt="git add">
+          </section>
+        </section>
+        <section>
+          <section data-auto-animate>
+            <h2><code>git commit</code></h2>
+          </section>
+          <section data-auto-animate>
+            <h2><code>git commit</code></h2>
+            <ul class="font-smaller">
+              <li><strong>Record changes</strong> to the repository</li>
+              <ul>
+                <li>Create a new <strong>revision</strong>, or <strong style="text-decoration: underline;">commit</strong></li>
+                <li><strong><code>git commit -m "Your commit message here"</code></strong></li>
+              </ul>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h2><code>git commit</code></h2>
+            <ul style="font-size: 2rem;">
+              <li>Before that, you need to <strong>configure</strong> your <strong>username</strong> and <strong>email</strong></li>
+              <ul>
+                <li><strong><code>git config user.name "Your Name"</code></strong></li>
+                <li><strong><code>git config user.email "myemail@provider.tld"</code></strong></li>
+                <li>Use the <strong><code>--global</code></strong> flag to make it the default.</li>
+              </ul>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h2><code>git commit</code></h2>
+            <p class="text-left font-smaller">Why is that needed?</p>
+            <p class="text-left font-smaller">Git uses <strong>SHA1 hash</strong> to refer to commits. It's generated based on:</p>
+            <div style="display: flex;">
+              <ul style="font-size: 2rem; flex: 1">
+                <li>The <strong>source tree</strong> of the commit</li>
+                <li>SHA1 hash of the <strong>parent commit</strong></li>
+                <li>The <strong>author</strong> info (+ timestamp)</li>
+                <li>The <strong>committer</strong> info (+ timestamp)</li>
+                <li>The commit <strong>message</strong></li>
+              </ul>
+              <div style="flex: 1;">
+                <img class="rounded" src="assets/hash.png" alt="Hashing Algorithm">
+              </div>
+            </div>
+            <p style="font-size: 1rem;">
+              <a href="https://gist.github.com/masak/2415865">gist.github.com/masak/2415865</a><br>
+              <a href="https://auth0.com/blog/hashing-passwords-one-way-road-to-security/">auth0.com/blog/hashing-passwords-one-way-road-to-security/</a>
+            </p>
           </section>
         </section>
         <section>
